@@ -8,7 +8,7 @@ router.get('/', function(req, res) {
   res.render('titlebar', { title: 'Quiz 2015: El Gran Reto: Rconleau - Ricardo de la Concepcion Leal' });
 });
 
-router.get('/quizes/question',quizController.question);
-router.get('/quizes/answer',quizController.answer);
+router.get('/quizes/questions',quizController.question);
+router.get('/quizes/answers',quizController.answer);
 
 module.exports = router;

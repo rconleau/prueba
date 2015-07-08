@@ -8,8 +8,8 @@ exports.questions = function(req, res){
 
 exports.answers = function(req,res){
 	if (req.query.respuesta === 'Roma'){
-		res.render('quizes/answers', {respuesta: 'Correcto'});
+		res.render('quizes/answer', {respuesta: 'Correcto'});
 	else {
-		res.render('quizes/answers', {respuesta: 'Incorrecto'});
+		res.render('quizes/answer', {respuesta: 'Incorrecto'});
 	}
 }
