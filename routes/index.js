@@ -4,7 +4,7 @@ var router = express.Router();
 var quizController = require('../controllers/quiz_controller');
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.render('index', { title: 'Quiz 2015: El Gran Reto' });
+  res.render('index', { title: 'Quiz el Gran Reto 2015' });
 });
 
 //router.get('/quizes/question',quizController.question);
