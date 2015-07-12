@@ -11,3 +11,4 @@ router.get('/', function(req, res) {
 //router.get('/quizes/answer',quizController.answer);
 
 module.exports = router;
+ 
