@@ -1,5 +1,5 @@
 #page-wrap: after { content: "Wide Layout"; }
-body { background: #999; }
+body { background: black; }
 nav span  { 
   margin: 0px 100px 0px 0px;
 }
